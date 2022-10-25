@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-    This project is a README Generator, once the following information is filled in, it will create and generate an already filled out readme file. For example this readme file here.
+    This is a README Generator. When the information is filled out using node, a README file will be constructed with that information. Such as this file here.
 ## Table of Contents
 
     - Usage
@@ -12,13 +12,13 @@
     
 
 ## Usage 
-     This file takes the users information and turns it into a filtered readme file.
+    This repository will create and generate a README file with all the information you fill in.
 ### Testing
-    To run test on this project type node index.js into the terminal in the correct directory.
+    To run test on this project open the terminal for the correct directory and type "node index.js"
 ## Installation
-    1. Clone down the repo. 2. Make sure you have Node.js already installed on your device, if you don't already please navigate to nodejs.org and download then continue. 3. Open to the repo in your terminal and run npm i to download inquirer.
+    Making sure you have Noda.js already downloaded, open up the terminal for the correct directory and type in npm i inquirer to download inquirer.
 ## Credits
-    Google will always be the biggest contributer out there!
+    Google will always be the biggest contributor!
 ## License
     The MIT License (MIT)
                 Copyright © 2022 [COPYRIGHT OWNER]
