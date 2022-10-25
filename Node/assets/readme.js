@@ -1,6 +1,6 @@
-// function for readme template, and it's values from the index.js questions.
-function generateMarkdown(data){
-    return `# ${data.project}
+
+function generateLayout(data){
+    return `# ${data.title}
 
 ## Description
     ${data.description}
@@ -14,13 +14,13 @@ function generateMarkdown(data){
     
 
 ## Usage 
-    ${data.usage}
+    ${data.use}
 ### Testing
     ${data.test}
 ## Installation
-    ${data.dependency}
+    ${data.installation}
 ## Credits
-    ${data.contributions}
+    ${data.contribution}
 ## License
     ${displayLicense(data)}
 ## Contact Me
@@ -88,4 +88,4 @@ displayLicense = function (responses){
 };
 
 // exports generateMarkdown function to index.js
-module.exports = generateMarkdown;
+module.exports = generateLayout;
